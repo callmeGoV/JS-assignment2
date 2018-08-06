@@ -1,0 +1,43 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta charset="utf-8" />  
+    <title>My Slider</title>  
+    <link rel="stylesheet" href="slider test.css"> 
+      
+</head>  
+<body style="background-color:#00ff99">  
+    
+    <div class="slidercontainer">  
+            <center>
+        <div class="showSlide fade">  
+            <img id="img1" />  
+            <div class="content" ></div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img id="img2"  />  
+            <div class="content"></div>  
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img id="img3"  />  
+            <div class="content"></div>  
+        </div>  
+    </center>
+        <!-- Navigation arrows -->  
+        <a class="left" onclick="nextSlide(-1)" >left</a>  
+        <a class="right" onclick="nextSlide(1)">right</a>  
+    </div> 
+   <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+  
+    <script type="text/javascript" src="slider test.js">  
+    
+
+    </script>  
+  
+</body>  
+</html> 
